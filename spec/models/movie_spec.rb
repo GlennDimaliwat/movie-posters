@@ -11,14 +11,8 @@
 #  poster_image_data :string
 #
 
-class Movie < ApplicationRecord
-    include PosterImageUploader[:poster_image]
+require 'rails_helper'
 
-    # title required
-    validates :title, presence: true
-
-    # year_released required and to be between 1800 - 2100
-    validates :year_released, numericality: { only_integer: true, in: 1800..2100 }
-
-    # description optional
+RSpec.describe Movie, type: :model do
+  pending "add some examples to (or delete) #{__FILE__}"
 end

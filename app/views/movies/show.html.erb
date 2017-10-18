@@ -1,5 +1,9 @@
 <p id="notice"><%= notice %></p>
 
+<figure>
+  <%= image_tag @movie.poster_image_url(:original), alt: "Poster for #{@movie.title}", width: 500 if @movie.poster_image.present? %>
+</figure>
+
 <p>
   <strong>Title:</strong>
   <%= @movie.title %>
