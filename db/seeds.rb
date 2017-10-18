@@ -7,14 +7,14 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 movies = Movie.create!([
-    { title: "Inception", year: 2010 },
-    { title: "The Wolf of Wall Street", year: 2013 },
-    { title: "The Social Network", year: 2010 },
-    { title: "Boyhood", year: 2014 },
-    { title: "Interstellar", year: 2014 },
-    { title: "Mad Max: Fury Road", year: 2015 },
-    { title: "The Avengers", year: 2012 },
-    { title: "Toy Story 3", year: 2010 },
-    { title: "Looper", year: 2012 },
-    { title: "Star Wars: The Force Awakens", year: 2015 },
+    { title: "Inception", year_released: 2010 },
+    { title: "The Wolf of Wall Street", year_released: 2013 },
+    { title: "The Social Network", year_released: 2010 },
+    { title: "Boyhood", year_released: 2014 },
+    { title: "Interstellar", year_released: 2014 },
+    { title: "Mad Max: Fury Road", year_released: 2015 },
+    { title: "The Avengers", year_released: 2012 },
+    { title: "Toy Story 3", year_released: 2010 },
+    { title: "Looper", year_released: 2012 },
+    { title: "Star Wars: The Force Awakens", year_released: 2015 },
 ])
